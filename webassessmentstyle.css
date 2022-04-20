@@ -1,0 +1,414 @@
+*{
+    box-sizing:border-box;  
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #989898;
+}
+
+h1{font-size:30px;}
+h2{font-size:24px;}
+h3{font-size:22px;}
+h4{font-size:20px;}
+h5{font-size:18px;}
+
+h1, h2, h3, h4, h5 {
+    color: #4f4f4f;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+/*Header and Logo*/
+header {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    align-items: center;
+}
+
+/*Logo*/
+.colmaracademylogo {
+    display: flex;
+    height: 32px;
+    align-items: center;
+    padding-left: 24px;
+}
+
+#colmar h5 {
+    color: #01161E;
+}
+
+#academy h5 {
+    color: #9f9b9b;
+}
+
+/*Nav*/
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 24px;
+    
+}
+
+.one a {
+    color: #4f4f4f;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.two a {
+    text-decoration: none;
+    padding: 40px;
+    
+}
+
+.two {
+    margin: auto;
+    
+}
+
+/* Banner Section*/
+.banner {
+    display: flex;
+    background-color:rgb(218, 218, 218);
+    align-items: center;
+}
+
+/*Banner Image*/
+#banner-container {
+    width: 60%;
+    padding: 32px 0px;
+    margin: 0px 24px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/*Banner Text*/
+#content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 24px;
+}
+
+#content h4 {
+    padding: 16px 0px 8px 0px;
+}
+
+/*Button*/
+.button {
+    background-color: #454545;
+    width: 60%;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+/*Keep Practicing Section*/
+.keeppracticing {
+    display: flex;
+    width: 100%;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 32px 0px;
+    margin: 0px 24px;
+}
+
+.leftpic img {
+    width: 100%;
+}
+
+#practisingtext h2 {
+    padding: 32px 0px 24px 0px;
+}
+
+#practisingtext h5 {
+    padding-top: 32px;
+}
+
+.right-side {
+    padding: 0px;
+    margin-right: 24px;
+    margin-top: 16px;
+    flex: 1;
+}
+
+.eins {
+    display: flex;
+    padding: 16px;  
+}
+
+.eins img {
+    height: auto;
+    width: 35%;
+    height: 35%;
+}
+
+.eins h3, .eins p, .eins a {
+    padding-left: 16px;
+}
+
+.eins a {
+    color: rgb(76, 124, 182);
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+.eins h3 {
+    padding-bottom: 10px;
+}
+    
+.einsbgcolor {
+    background-color: rgb(218, 218, 218);
+}
+
+.eins div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Keep Practicing 2*/
+.keeppracticing2 {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.keeppracticing2 h3 {
+    padding: 16px 0px;
+}
+
+.keeppracticing2 p {
+   padding-bottom: 8px;
+}
+
+.keeppracticing2 a {
+    color:rgb(76, 124, 182);
+}
+
+.keeppracticing2 div {
+    padding-bottom: 32px;
+}
+
+.keeppracticing2 img {
+    max-width: 100%;
+}
+
+/*Start Learning*/
+.learn {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 218, 218);
+}
+
+.learn h2 {
+    text-align: center;
+    padding-top: 32px;
+
+}
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 16px;
+    padding: 32px 72px;
+    justify-content: center;
+}
+
+.learncard {
+    background-color: #ffffff;
+    width: 30%;
+}
+
+.learncard img {
+    width: 100%;
+}
+
+.learncard div {
+    padding: 16px 0px 0px 16px;
+}
+
+p+p {
+    padding: 16px 0px 24px 0px;
+}
+
+/*Learn 2*/
+.learn2 {
+    padding: 32px 72px;
+}
+
+.learn2 h2 {
+    text-align: center;
+}
+
+.learnbox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px 0px;
+    margin: 16px 0px 32px 0px;
+}
+
+.learnbox div {
+    background-color:rgb(218, 218, 218);
+    max-width: 100%;
+    text-align: center;
+    padding: 16px 0px;
+    color: #4f4f4f;
+}
+
+/*Thesis Exhibits*/
+#thesisexhibits h2 {
+    padding: 32px 0px 0px 0px;
+    text-align: center;
+}
+
+#reimagineurban h3 {
+    padding: 24px 0px 15px 0px;
+}
+
+.right-side2 {
+    padding: 0px;
+    margin-right: 24px;
+    margin-top: 32px;
+    flex: 1;
+}
+
+/*Thesis Exhibits 2*/
+#te2 video {
+    padding: 32px 0px;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    border-top: 0.5px solid #989898;
+}
+
+#copyright {
+    width: 100%;
+}
+
+footer p {
+    padding: 16px 0px 16px 24px;
+}
+
+#termsprivacy {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#termsprivacy div {
+    padding-left: 10px;
+    padding-right: 5px;
+    justify-content: flex-end;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 720px) {
+    header {
+        height: 64px;
+    }
+
+    .colmaracademylogo {
+        display: none;
+    }
+
+    .one {
+        display: none;
+    }
+        
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 32px;
+    }
+       
+    #banner-container {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+    
+    #content {
+        text-align: center;
+        width: 100%;
+            
+    }
+
+    #content h1 {
+        padding-top: 16px;
+    }
+
+    #content h4 {
+        padding-bottom: 8px;
+    
+    }
+
+    .button {
+        background-color: #454545;
+        width: 250px;
+    }
+
+    #buttondiv {
+        justify-content: center;
+        margin: auto;
+    }
+
+    .keeppracticing {
+        display: none
+    }
+
+    .learn {
+        display: none
+    }
+
+    } /*End of Media Query*/
+
+/*MEDIA SCREEN HIDDEN ABOVE 720PX*/
+@media screen and (min-width: 720px) {
+
+.two {
+    display: none;         
+}
+
+.keeppracticing2 {
+    display: none;
+}                
+
+.learn2 {
+    display: none;
+}    
+
+#te2 {
+    display: none;
+}
+
+} /*End of Media Query*/
